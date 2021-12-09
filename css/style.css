@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,600&display=swap');
+
+
+*{
+    color: rgba(76, 76, 204, 1);
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgba(242, 238, 223, 1)
+}
+
+.hero{
+    background-image: url("../vento_img/YellowHappy_herosectionimage.png");
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    
+}
+.container{
+    
+}
+
+.btn-outline-primary{
+     background: none;
+     padding: 7px 7px 7px 7px;
+     border:2px solid rgba(76, 76, 204, 1);
+     font-family: 'Josefin Sans', sans-serif;
+     color: rgba(76, 76, 204, 1);
+     border-radius: 20px;
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline.primarye.active, .open > .dropdown-toggle.btn-primary {
+	color:rgba(242, 238, 223, 1);
+	border-color: rgba(76, 76, 204, 1);
+    background-color: rgba(76, 76, 204, 1);
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+    color: rgb(255, 17, 0);
+
+}
+
+ .hr {
+    background-size: 4px;
+    border-top: 4px solid #00ff15;
+    border-color: #ff00bf;
+    background-color: red;
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+ .card{
+    border:0px;  
+ }
+.card-title{
+
+    padding-top: 80px;
+    padding-bottom: 20px;
+}

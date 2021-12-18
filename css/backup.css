@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700;900&display=swap');
+
+*{
+    color: rgba(76, 76, 204, 1);
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(242, 238, 223, 1);
+
+}
+
+.hero{
+    background-image: url("../vento_img/vento_hero.jpg");
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    
+}
+.header__logo{
+padding-left: 20px;
+
+}
+.card{ 
+
+    border:0px;
+}
+.btn .btn-primary{
+
+
+}

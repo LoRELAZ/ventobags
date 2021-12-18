@@ -11,9 +11,10 @@
     <title>ventobags</title>
   </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid mt-3">
-            <a class="navbar-brand" href="./index.html">VENTOBAGS</a>
+      <header class="header"><!--BLOQUE-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light"><!--ELEMENTO-->
+          <div class="container-fluid mt-4">
+            <a class="navbar-brand" href="#"><img class="header__logo" src="./vento_img/ventosmile.gif" alt="logosventotrasparente"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -22,109 +23,97 @@
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="./pages/about.html">ABOUT</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ms-1">
                   <a class="nav-link" href="./pages/bags.html">BAGS</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ms-1">
                   <a class="nav-link" href="./pages/pouches.html">POUCHES</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ms-1">
                   <a class="nav-link" href="pages/patterns.html">PATTERNS</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item ms-1">
                   <a class="nav-link" href="./pages/contact.html">CONTACT</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
-        <hr class="hr">
+      </header>
         <section class="hero">
-          <div class="container">
-          <div>
-            <h1 class="display-4">GIFTS UNDER 30chf</h1>
-          </div>
-            <button type="button" class="btn btn-outline-primary">SHOP GIFTS UNDER 30chf</button>
-              <div class="row">
-                <div class="col-md-3">
-                  <p>VENTO makes simple, playful things for everyday living.</p>
+             <div class="container">
+                <h1 class="card-titlehero display-4">We make reusable<br>
+                 shopping bags</h1>
+                <p>Simple and playful reusable bags, for everyday living</p>
+                <a href="#" class="btn btn-primary">SHOP NOW</a>
+              </div>
+      </section>
+      
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-md-6 mt-2">
+                <div class="card" style="width:auto">
+                  <img src="./vento_img/naturecollection.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h1 class="card-title">Zodiac Collection</h1>
+                    <a href="#" class="btn btn-primary">BAGS FOR ALL 12 SIGNS</a>
+                  </div>
                 </div>
               </div>
-        </section>
-        <div class="container mt5" style="margin-top: 30;">
-            <div class="row">
-            <div class="col-sm-4 col-md-3 col-lg-4">caja 1</div>
-            <div class="col-sm-6 col-md-3 col-lg-4">caja 2</div>
-            <div class="col-sm-2 col-md-6 col-lg-4">caja 3</div>
-            <div class="col-sm-2 col-md-6 col-lg-4">caja 4</div>
-        </div>
-    
-    
+              <div class="col-md-6 mt-2">
+                <div class="card" style="width:auto">
+                  <img src="./vento_img/zodiaccolellention.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h1 class="card-title">Nature Collection</h1>
+                    <a href="#" class="btn btn-primary">SHOP NOW</a>
+                  </div>
+                </div>
+             </div>
         <div class="container-fluid">
+          <div class="row">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./vento_img/carousel1sun.jpg" class="d-block w-100" alt="slideFirst">
+              </div>
+              <div class="carousel-item">
+                <img src="./vento_img/carousel2cat.jpg" class="d-block w-100" alt=slidesecond">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>The Cat in the Bag</h5>
+                  <p>We make simple, playful reusable shopping bags, for everyday living</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./vento_img/carousel3fresas.jpg" class="d-block w-100" alt="slidethird">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+       </div>
+
+        <div class="footer">
+          <div class="container">
                 <div class="row">
-                    <div class="container mt5" style="margin-top: 30;">
-                        <div class="col-sm-4 col-md-3 col-lg-4">
-                        <div class="card" style="width: 18rem;">
-                        <img src="./vento_img/flatpouchset.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h3 class="card-title">Flat Pouch Set</h3>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn btn-outline-primary">SHOP GIFTS UNDER 30chf</button>
+                    <div class="col-md-4 mt-5">
+                      <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Join Our Newsletter</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <button type="button" class="btn btn-outline-primary">SUBMIT</button>
+                      </form>
                     </div>
-                </div>        
-                  <div class="container mt5" style="margin-top: 30;">
-                        <div class="col-sm-6 col-md-3 col-lg-4">
-                        <div class="card" style="width: 18rem;">
-                        <img src="./vento_img/setoftreebags.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h3 class="card-title">Happy set of tree</h3>
-                        <p class="card-text">A set of shopping bags drawstring pouch. Each set contains three unique prints, ideal for gifting.</p>
-                        <button type="button" class="btn btn-outline-primary">SHOP GIFTS UNDER 30chf</button>
-                  </div>
-                  <div class="col-sm-2 col-md-6 col-lg-4">
-                        <div class="card" style="width: 18rem;">
-                        <img src="./vento_img/productos.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h3 class="card-title">Animal pouches</h3>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button type="button" class="btn btn-outline-primary">SHOP GIFTS UNDER 30chf</button>
-                  </div>
-                  <div class="container mt5" style="margin-top: 30;">
-                        <div class="row">
-                        <div class="col-sm-6 col-md-3 col-lg-4">
-                        <div class="card" style="width: 18rem;">
-                        <img src="./vento_img/setoftreebags.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h3 class="card-title">VENTO set of tree</h3>
-                        <p class="card-text">A set of shopping bags drawstring pouch. Each set contains three unique prints, ideal for gifting.</p>
-                        <button type="button" class="btn btn-outline-primary">SHOP GIFTS UNDER 30chf</button>
-                    </div>
-                    <div class="col-sm-6 col-md-3 col-lg-4">
-                      <div class="card" style="width: 18rem;">
-                      <img src="./vento_img/setoftreebags.webp" class="card-img-top" alt="...">
-                      <div class="card-body">
-                      <h3 class="card-title">VENTO set of tree</h3>
-                      <p class="card-text">A set of shopping bags drawstring pouch. Each set contains three unique prints, ideal for gifting.</p>
-                      <button type="button" class="btn btn-outline-primary">SHOP GIFTS UNDER 30chf</button>
-                    </div>
-           </div>
-            <section class="footer">
-                <div class="container">
-                  <div class="row">
-                      <div class="col-md-4 mt-5">
-                        <form>
-                          <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Join Our Newsletter</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                          </div>
-                          <button type="button" class="btn btn-outline-primary">SUBMIT</button>
-                        </form>
-                      </div>
-                      <div class="col-md-4 mt-4">caja 2</div>
-                      <div class="col-md-4 mt-4">caja 3</div>
-                 </div>   
-            </section>
+            </div>   
+          </div>
+    
+        
      
      
    

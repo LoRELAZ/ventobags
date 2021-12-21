@@ -1,33 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700;900&display=swap');
-
-*{
-    color: rgba(76, 76, 204, 1);
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: rgba(242, 238, 223, 1);
-
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700;900&display=swap");
+* {
+  color: #4c4ccc;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.hero{
-    background-image: url("../vento_img/vento_hero.jpg");
-    height: 40vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: center;
+
+.header{
+  background-color:#4c4ccc;
+  padding: 0px 0px;
+
+}
+.nav-link {
+  color:#f2eedf !important;
+  font-size: 1.3rem;
+  }
+
+.bg-light{
+  --bs-bg-opacity:0;
+}
+
+.hero {
+  background-image: url("../vento_img/vento_hero.jpg");
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center; }
+
+.header__logo {
+  padding-left: 20px;
+   }
+
+.card {
+  border: 0px; }
+
+  }
+  .card-text{
+    text-align:justify;
     
-}
-.header__logo{
-padding-left: 20px;
 
-}
-.card{ 
+  }
+ .card-title{
+    text-align: left;
+    font-size: 2rem;
 
-    border:0px;
-}
-.btn .btn-primary{
+ }
+ .card-titleproducts{
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight:200;
 
+ }
 
-}
+ .footer{
+  background-color:#4c4ccc;
+  padding: 20px 10px;
+
+ }
+ .form-label{
+  color:#f2eedf !important;
+
+ }
+ 

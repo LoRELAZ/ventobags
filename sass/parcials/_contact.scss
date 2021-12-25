@@ -1,0 +1,43 @@
+@import "../variables";
+
+.contact {
+    .row {
+        .col-md-3 {
+            background-color: $light-yellow;
+        }
+        .col-md-9 {
+            background-image: url("../vento_img/tigerwallpaper.jpg");
+            padding: 3%;
+        }
+    }
+}
+.contact-form button {
+    background: #4c4ccc;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+.contact-form button:focus {
+    box-shadow: none;
+}
+
+.contact {
+    padding: 4%;
+    height: 400px;
+}
+.contact-info {
+    margin-top: 10%;
+    padding: 6%;
+    color: #f2eedf !important;
+}
+.contact-info img {
+    margin-bottom: 15%;
+}
+.contact-info h2 {
+    margin-bottom: 10%;
+}

@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700;900&display=swap");
 * {
-  color: #4c4ccc;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body{
+  color: #4c4ccc;
+  background-color:#f2eedf;
+}
 
 .header{
   background-color:#4c4ccc;
@@ -35,9 +38,11 @@
    }
 
 .card {
-  border: 0px; }
+  border: 0px;
 
-  }
+}
+
+
   .card-text{
     text-align:justify;
     
@@ -46,6 +51,8 @@
  .card-title{
     text-align: left;
     font-size: 2rem;
+    font-weight:200;
+
 
  }
  .card-titleproducts{
@@ -64,4 +71,43 @@
   color:#f2eedf !important;
 
  }
- 
+ /*css contacto*/
+
+ .background {
+  background:#ccb54c;
+}
+   
+.contact{
+  padding: 4%;
+  height: 400px;
+}
+.contact-info{
+  margin-top:10%;
+  padding: 6%;
+  color:#f2eedf !important;
+
+
+}
+.contact-info img{
+  margin-bottom: 15%;
+}
+.contact-info h2{
+  margin-bottom: 10%;
+}
+
+.col-md-9{
+  background-image: url("../vento_img/tigerwallpaper.jpg");
+  padding: 3%;
+}
+.contact-form label{
+  font-weight:600;
+}
+.contact-form button{
+  background:#4c4ccc;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+}
+.contact-form button:focus{
+  box-shadow:none;
+}

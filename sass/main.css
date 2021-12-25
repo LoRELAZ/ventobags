@@ -1,1 +1,123 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700;900&display=swap");
+.contact .row .col-md-3 {
+  background-color: #ccb54c;
+}
+
+.contact .row .col-md-9 {
+  background-image: url("../vento_img/tigerwallpaper.jpg");
+  padding: 3%;
+}
+
+.contact-form button {
+  background: #4c4ccc;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+}
+
+.contact-form label {
+  font-weight: 600;
+}
+
+.contact-form button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contact {
+  padding: 4%;
+  height: 400px;
+}
+
+.contact-info {
+  margin-top: 10%;
+  padding: 6%;
+  color: #f2eedf !important;
+}
+
+.contact-info img {
+  margin-bottom: 15%;
+}
+
+.contact-info h2 {
+  margin-bottom: 10%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  color: #4c4ccc;
+  background-color: #f2eedf;
+}
+
+.header {
+  background-color: #4c4ccc;
+  padding: 0px 0px;
+}
+
+.nav-link {
+  color: #f2eedf !important;
+  font-size: 1.3rem;
+}
+
+.bg-light {
+  --bs-bg-opacity:0;
+}
+
+.hero {
+  background-image: url("../vento_img/vento_hero.jpg");
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  padding-left: 20px;
+}
+
+.card {
+  border: 0px;
+}
+
+.card-text {
+  text-align: justify;
+}
+
+.card-title {
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.card-titleproducts {
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.footer {
+  background-color: #4c4ccc;
+  padding: 20px 10px;
+}
+
+.form-label {
+  color: #f2eedf !important;
+}
+
+/*css contacto*/
+.card {
+  background-color: #ccb54c;
+}
+/*# sourceMappingURL=main.css.map */
